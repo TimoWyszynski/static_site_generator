@@ -17,5 +17,5 @@ class HTMLNode():
             return ""
         attributes = ""
         for key, value in self.props.items():
-            attributes += f" {key}={value}"
+            attributes += f' {key}="{value}"'
         return attributes
